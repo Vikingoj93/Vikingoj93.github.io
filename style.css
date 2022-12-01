@@ -3,10 +3,10 @@
     margin: 0;
     font-family: Helvetica, Arial, sans-serif;
 }
-#body{
+body{
     background-color: #c3540e;
 }
-
+/*stilos cabecera*/
 #header {
     background: #c3540e;  
 }
@@ -16,12 +16,11 @@
 #header img {
     border-radius: 100%;
 }
-
+/*estilos hero*/
 #hero {
     background-image: url(https://www.kidoestudio.com/blog/wp-content/uploads/2018/01/tutorial-css-html-javascript-1288x724.jpg);
     background-position: center;
     width: 100%;
-    height: 400px;
 }
 
 #information-container{
@@ -31,7 +30,6 @@
 
 #image-perfil{
     width: 15%;
-    max-width: 100px;
 }
 #image-perfil img{
     width: 100%;
@@ -54,6 +52,7 @@
     font-weight: normal;
     color: rgb(67, 64, 64);}
 
+    /*estilos main*/
 #redes-sociales{
     display: flex;
     list-style: none;
