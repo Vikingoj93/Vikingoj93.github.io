@@ -8,14 +8,19 @@ body{
 }
 /*stilos cabecera*/
 #header {
-    background: #c3540e;  
+    background: #c3540e; 
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
 }
 #header div {
-    width: 50px;
+    width: 10%
 }
 #header img {
+    width: 100%;
     border-radius: 100%;
 }
+
 /*estilos hero*/
 #hero {
     background-image: url(https://www.kidoestudio.com/blog/wp-content/uploads/2018/01/tutorial-css-html-javascript-1288x724.jpg);
@@ -47,6 +52,7 @@ body{
 }
 #information p {
     width: 90%;
+    font-weight: bold;
 }
 #information span {
     font-weight: normal;
@@ -60,6 +66,7 @@ body{
 #redes-sociales img {
     width: 50px;
     border-radius: 100%;
+    border: white solid 2px;
 }
 #redes-sociales li {
     margin-right: 2%;
